@@ -20,4 +20,7 @@ AcceptCreditOfferFailed
 DeclineCreditOfferFailed  
 
 User can pay balance only if card is in AcceptCreditOfferSuccess state. Also user can't decline or initialize credit offer if credit offer is already approved.
-Failed statuses (when out of process call fails) are configured as substates of Init state and play role as starting point for requiring a new credit offer.
+Failed statuses (when out of process call fails) are configured as substates of Init state and play role as starting point for requiring a new credit offer.  
+
+Stateless nuget package:
+https://github.com/dotnet-state-machine/stateless
