@@ -1,4 +1,4 @@
-# Process manager as a state machine implemented with stateless nuget package and entity framework core.
+# Process Manager as a state machine implemented with stateless nuget package and entity framework core
 
 Process manager maintains schema for transitions between states and implements state design pattern.  
 
