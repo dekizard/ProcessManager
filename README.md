@@ -1,9 +1,10 @@
-#Process manager as a state machine implemented with stateless nuget package and entity framework core.
+# Process manager as a state machine implemented with stateless nuget package and entity framework core.
 
 Process manager maintains schema for transitions between states and implements state design pattern.
 
 In the code example we have user which can request for credit offer, accept/decline it and pay balance. Those actions are triggers which trigger states transitions. 
 CardStateMachineExtension.cs file contains schema on transitions between states triggered by action.
+https://github.com/dekizard/ProcessManager/blob/master/ProcessManager/Application/ProcessManager/CardStateMachineExtension.cs
 
 The next transitions are valid:
 Init->RequireCreditOfferSuccess
